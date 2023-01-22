@@ -2,38 +2,38 @@
 //длина которых меньше, либо равна 3 символам. 
 //Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.
 
-// Примеры:
-// ["привет", "2", "мир", ":-)"] -> ["2", ":-)"]
+Console.WriteLine("Какой длинны массив вам потребуется? ");
+int size  = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine("Введите слова или цифры или символы через пробел: ");
-string inputText = Console.ReadLine(); 
-string[] stringArray1 = inputText.Split(' ');
-string[] stringArray2 = new string[stringArray1.Length];
+string[] arr1 = new string[size];
 
-// string[] stringArray1 = new string[5] {"privet", "22", "hi", ")))", "bonjour"}; //- если самому задать массив
-// string[] stringArray2 = new string[stringArray1.Length];
+for (int i = 0; i < size; i++){
+	Console.Write("Введите элемент массива: ");
+    string result = Console.ReadLine();
+	arr1[i] = result;  
+}
+Console.WriteLine();
+Console.Write("Введенный массив: [");
+Console.Write(string.Join(", ", arr1));
+Console.Write("]");
 
-void CheckArray(string[] stringArray1, string[] stringArray2)
-{
-    int count = 0;
-    for (int i = 0; i < stringArray1.Length; i++)
-    {
-        if (stringArray1[i].Length <= 3)
-        {
-            stringArray2[count] = stringArray1[i];
-            count++;
-        }
+int count = 0;
+int maxSymbols = 3;
+
+for (int i = 0; i < arr1.Length; i++){
+	if(arr1[i].Length <= maxSymbols){
+		count++;
+	}   
+}
+Console.WriteLine();
+Console.Write("Полученный массив из строк, длина которых меньше либо равна трём символам: [");
+string[] arr2 = new string[count];
+int j = 0;
+for (int i = 0; i < arr1.Length; i++){
+    if(arr1[i].Length <= maxSymbols){
+        arr2[j] = arr1[i];
+        Console.Write(arr2[j] + " ");
+        j++;
     }
 }
-    
-void PrintArray(string[] array)
-    {
-        for (int i = 0; i < array.Length; i++)
-        {
-            Console.Write($"{array[i]} ");
-        }
-        Console.WriteLine();
-    }
-
-CheckArray(stringArray1, stringArray2);
-PrintArray(stringArray2);
+Console.Write("]");

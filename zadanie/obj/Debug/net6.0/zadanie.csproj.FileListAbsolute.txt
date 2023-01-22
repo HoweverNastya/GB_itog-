@@ -1,0 +1,15 @@
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\bin\Debug\net6.0\zadanie.exe
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\bin\Debug\net6.0\zadanie.deps.json
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\bin\Debug\net6.0\zadanie.runtimeconfig.json
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\bin\Debug\net6.0\zadanie.dll
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\bin\Debug\net6.0\zadanie.pdb
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.csproj.AssemblyReference.cache
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.GeneratedMSBuildEditorConfig.editorconfig
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.AssemblyInfoInputs.cache
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.AssemblyInfo.cs
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.csproj.CoreCompileInputs.cache
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.dll
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\refint\zadanie.dll
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.pdb
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\zadanie.genruntimeconfig.cache
+M:\ТЕСТИРОВАНИЕ\ДЗ\Итогоая1 блок\zadanie\obj\Debug\net6.0\ref\zadanie.dll
